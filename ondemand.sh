@@ -1,7 +1,7 @@
 #!/bin/bash
 myip=`echo $SSH_CLIENT | awk '{ print $1}'`
 
-# NOTE - all IPs have been changed
+# NOTE - all IPs have been changed to protect the innocent
 # Running UFW dump cmds
 /opt/scripts/ufw-dump.sh
 ssh root@192.168.0.30 "/opt/scripts/ufw-dump.sh"
